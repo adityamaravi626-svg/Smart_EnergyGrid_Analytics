@@ -1,0 +1,100 @@
+## Smart Energy Analytics
+
+An end-to-end energy analytics project that combines Python, SQL, Machine Learning, Power BI, and Generative AI to analyze electrical energy consumption, transformer performance, power quality, renewable energy integration, grid dependency, and load prediction.
+
+## Project Overview
+
+The Smart Energy Analytics project analyzes electrical energy data to identify important patterns in power consumption, system loading, power quality, renewable energy contribution, and grid dependency.
+
+The project follows a complete data analytics workflow:
+
+Data → Cleaning → Feature Engineering → EDA → Statistics → SQL → Machine Learning → Power BI → GenAI
+
+The goal is to transform raw electrical measurements into meaningful insights that can support energy monitoring and engineering investigation.
+
+## Dataset
+
+The project uses a cleaned energy dataset containing electrical, environmental, renewable-energy, economic, and machine-learning-related variables.
+
+# Main Columns
+ * Electrical Parameters
+    timestamp
+    voltage
+    current
+    power_consumption
+    reactive_power
+    power_factor
+    apparent_power
+    calculated_pf
+    reactive_active_ratio
+
+* Renewable & Grid Parameters
+  solar_power
+  wind_power
+  renewable_power
+  grid_supply
+  total_supply
+  renewable_contribution
+  grid_dependency
+  renewable_grid_ratio
+
+* System Condition
+  voltage_fluctuations
+  overload_condition
+  transformer_fault
+  load_stress
+  load_stress_level
+  overload_flag
+
+* Environmental & Economic Parameters
+  temperature
+  humidity
+  electricity_price
+* Prediction
+  predicted_load
+
+## Technologies Used
+Technology	
+Python	        
+Pandas	
+NumPy	
+Matplotlib	
+Seaborn	
+Scikit-learn	
+MySQL	
+Power BI	
+DAX	
+Generative AI	
+Google Colab	
+
+## Project Workflow
+              
+               Smart Energy Dataset
+                         │
+                         ▼
+              Data Understanding
+                         │
+                         ▼
+             Data Cleaning & Validation
+                         │
+                         ▼
+               Feature Engineering
+                         │
+                         ▼
+                  Exploratory
+                 Data Analysis
+                         │
+                         ▼
+               Statistical Analysis
+                         │
+                         ▼
+                  MySQL Analysis
+                         │
+                         ▼
+               Machine Learning
+                         │
+                         ▼
+                Power BI Dashboard 
+                         │ 
+                         ▼ 
+             Generative AI Energy Analyst
